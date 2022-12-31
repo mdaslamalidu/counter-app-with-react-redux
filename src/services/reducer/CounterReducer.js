@@ -1,7 +1,7 @@
 import { DECREMENT, INCREAMENT, RESET } from "../constants/Constants";
 
 const initialState = {
-  count: 0,
+  count: 1,
 };
 
 const createReducer = (state = initialState, action) => {
